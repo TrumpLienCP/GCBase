@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry install_date="2010-08-22 14:52:14" version="1.1" last_modified="2010-08-23 14:32:39">
+	<products>
+		<product name="GC" id="abd3d851-1efc-11b2-8667-973d00fc70e7" version="1.0.0.0" copyright="2010" info_url="" support_url="" location="C:\Program Files\GC" last_modified="2010-08-23 14:32:36">
+		<![CDATA[]]>
+			<vendor name="" id="abd3d850-1efc-11b2-8667-973d00fc70e7" home_page="" email=""/>
+			<feature short_name="Application" name="Application" last_modified="2010-08-23 14:32:36">
+			<![CDATA[This installs the application feature.]]>
+				<component ref_id="abd3d860-1efc-11b2-8682-973d00fc70e7" version="1.0.0.0" location="C:\Program Files\GC\_GC_installation\Change GC Installation.exe"/>
+				<component ref_id="abd3d861-1efc-11b2-867f-973d00fc70e7" version="1.0.0.0" location="C:\Program Files\GC\GC.exe"/>
+				<component ref_id="abd3d861-1efc-11b2-8684-973d00fc70e7" version="1.0.0.0" location="C:\Program Files\GC\jre"/>
+			</feature>
+			<feature short_name="Help" name="Help" last_modified="2010-08-23 14:32:36">
+			<![CDATA[This installs the help feature.]]>
+				<component ref_id="abd3d860-1efc-11b2-8682-973d00fc70e7" version="1.0.0.0" location="C:\Program Files\GC\_GC_installation\Change GC Installation.exe"/>
+				<component ref_id="abd3d861-1efc-11b2-867f-973d00fc70e7" version="1.0.0.0" location="C:\Program Files\GC\GC.exe"/>
+				<component ref_id="abd3d861-1efc-11b2-8684-973d00fc70e7" version="1.0.0.0" location="C:\Program Files\GC\jre"/>
+			</feature>
+		</product>
+	</products>
+	<components>
+		<component id="abd3d861-1efc-11b2-8684-973d00fc70e7" version="1.0.0.0" name="InstallAnywhere VM Component" location="C:\Program Files\GC\jre">
+			<resource keyfile="true" name="jre" location="C:\Program Files\GC\jre" type="post_processed_dir" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+		</component>
+		<component id="abd3d860-1efc-11b2-8682-973d00fc70e7" version="1.0.0.0" name="InstallAnywhere Uninstall Component" location="C:\Program Files\GC\_GC_installation\Change GC Installation.exe">
+			<resource keyfile="false" name="GC_InstallLog.log" location="C:\Program Files\GC\GC_InstallLog.log" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="GC" location="C:\Program Files\GC" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="_GC_installation" location="C:\Program Files\GC\_GC_installation" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|983103||STRING|$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|983103|" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|DisplayName|STRING|GC$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|DisplayName" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="uninstaller.jar" location="C:\Program Files\GC\_GC_installation\uninstaller.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="jre" location="C:\Program Files\GC\jre" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Change GC Installation.exe" location="C:\Program Files\GC\_GC_installation\Change GC Installation.exe" type="executable" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Change GC Installation.lax" location="C:\Program Files\GC\_GC_installation\Change GC Installation.lax" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="resource" location="C:\Program Files\GC\_GC_installation\resource" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="iawin32.dll" location="C:\Program Files\GC\_GC_installation\resource\iawin32.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="remove.exe" location="C:\Program Files\GC\_GC_installation\resource\remove.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|DisplayName|STRING|GC$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|DisplayName" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|UninstallString|STRING|&quot;C:\Program Files\GC\_GC_installation\Change GC Installation.exe&quot;$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|UninstallString" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|ProductID|STRING|abd3d851-1efc-11b2-8667-973d00fc70e7$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|ProductID" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|InstallLocation|STRING|C:\Program Files\GC$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|InstallLocation" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|InstallDate|STRING|Sun Aug 22 14:52:15 CST 2010$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|InstallDate" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|DisplayVersion|STRING|1.0.0.0$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\GC|131103|DisplayVersion" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="GC" location="C:\Documents and Settings\pad\「開始」功能表\程式集\GC" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="GC" location="C:\Documents and Settings\pad\「開始」功能表\程式集\GC" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Change GC Installation.lnk" location="C:\Documents and Settings\pad\「開始」功能表\程式集\GC\Change GC Installation.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="GC.lnk" location="C:\Documents and Settings\pad\「開始」功能表\程式集\GC\GC.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="ZGWin32LaunchHelper.exe" location="C:\Program Files\GC\_GC_installation\resource\ZGWin32LaunchHelper.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name=".com.zerog.registry.xml" location="C:\Program Files\GC\_GC_installation\.com.zerog.registry.xml" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="GC_InstallLog.log" location="C:\Program Files\GC\GC_InstallLog.log" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="_GC_installation" location="C:\Program Files\GC\_GC_installation" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="uninstaller.jar" location="C:\Program Files\GC\_GC_installation\uninstaller.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Change GC Installation.exe" location="C:\Program Files\GC\_GC_installation\Change GC Installation.exe" type="executable" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Change GC Installation.lax" location="C:\Program Files\GC\_GC_installation\Change GC Installation.lax" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="resource" location="C:\Program Files\GC\_GC_installation\resource" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="iawin32.dll" location="C:\Program Files\GC\_GC_installation\resource\iawin32.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="remove.exe" location="C:\Program Files\GC\_GC_installation\resource\remove.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Change GC Installation.lnk" location="C:\Documents and Settings\pad\「開始」功能表\程式集\GC\Change GC Installation.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="GC.lnk" location="C:\Documents and Settings\pad\「開始」功能表\程式集\GC\GC.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="ZGWin32LaunchHelper.exe" location="C:\Program Files\GC\_GC_installation\resource\ZGWin32LaunchHelper.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name=".com.zerog.registry.xml" location="C:\Program Files\GC\_GC_installation\.com.zerog.registry.xml" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="GC_InstallLog.log" location="C:\Program Files\GC\GC_InstallLog.log" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="_GC_installation" location="C:\Program Files\GC\_GC_installation" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="uninstaller.jar" location="C:\Program Files\GC\_GC_installation\uninstaller.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Change GC Installation.exe" location="C:\Program Files\GC\_GC_installation\Change GC Installation.exe" type="executable" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Change GC Installation.lax" location="C:\Program Files\GC\_GC_installation\Change GC Installation.lax" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="resource" location="C:\Program Files\GC\_GC_installation\resource" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="iawin32.dll" location="C:\Program Files\GC\_GC_installation\resource\iawin32.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="remove.exe" location="C:\Program Files\GC\_GC_installation\resource\remove.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Change GC Installation.lnk" location="C:\Documents and Settings\pad\「開始」功能表\程式集\GC\Change GC Installation.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="GC.lnk" location="C:\Documents and Settings\pad\「開始」功能表\程式集\GC\GC.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="ZGWin32LaunchHelper.exe" location="C:\Program Files\GC\_GC_installation\resource\ZGWin32LaunchHelper.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name=".com.zerog.registry.xml" location="C:\Program Files\GC\_GC_installation\.com.zerog.registry.xml" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="GC_InstallLog.log" location="C:\Program Files\GC\GC_InstallLog.log" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="_GC_installation" location="C:\Program Files\GC\_GC_installation" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="uninstaller.jar" location="C:\Program Files\GC\_GC_installation\uninstaller.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="true" name="Change GC Installation.exe" location="C:\Program Files\GC\_GC_installation\Change GC Installation.exe" type="executable" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Change GC Installation.lax" location="C:\Program Files\GC\_GC_installation\Change GC Installation.lax" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="resource" location="C:\Program Files\GC\_GC_installation\resource" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="iawin32.dll" location="C:\Program Files\GC\_GC_installation\resource\iawin32.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="remove.exe" location="C:\Program Files\GC\_GC_installation\resource\remove.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Change GC Installation.lnk" location="C:\Documents and Settings\pad\「開始」功能表\程式集\GC\Change GC Installation.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="GC.lnk" location="C:\Documents and Settings\pad\「開始」功能表\程式集\GC\GC.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="ZGWin32LaunchHelper.exe" location="C:\Program Files\GC\_GC_installation\resource\ZGWin32LaunchHelper.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name=".com.zerog.registry.xml" location="C:\Program Files\GC\_GC_installation\.com.zerog.registry.xml" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+		</component>
+		<component id="abd3d861-1efc-11b2-867f-973d00fc70e7" version="1.0.0.0" name="Common" location="C:\Program Files\GC\GC.exe">
+			<resource keyfile="false" name="_GC_installation" location="C:\Program Files\GC\_GC_installation" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="lax.jar" location="C:\Program Files\GC\lax.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="GC.exe" location="C:\Program Files\GC\GC.exe" type="executable" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="GC.lax" location="C:\Program Files\GC\GC.lax" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crm" location="C:\Program Files\GC\crm" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="Frame1.class" location="C:\Program Files\GC\crm\Frame1.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu.class" location="C:\Program Files\GC\crm\Menu.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnSet_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnSet_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnReturn_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnReturn_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_txtSales_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_txtSales_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnExit_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnExit_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnCust_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnCust_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnProd_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnProd_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales.class" location="C:\Program Files\GC\crm\Sales.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnAppend2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnAppend2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnDelete_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnCancel_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnCancel_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnCancel2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnCancel2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnModi_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnModi_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnModi2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnModi2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnAppend_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnHome_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnHome_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnPrev_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnPrev_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_jTable1_mouseAdapter.class" location="C:\Program Files\GC\crm\Sales_jTable1_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_jTable2_mouseAdapter.class" location="C:\Program Files\GC\crm\Sales_jTable2_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust.class" location="C:\Program Files\GC\crm\Cust.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnDelete_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnCancel_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnCancel_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnModi_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnModi_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnAppend_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnHome_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnHome_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnPrev_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnPrev_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_jTable1_mouseAdapter.class" location="C:\Program Files\GC\crm\Cust_jTable1_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod.class" location="C:\Program Files\GC\crm\Prod.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnDelete_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnCancel_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnCancel_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnModi_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnModi_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnAppend_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnHome_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnHome_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnPrev_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnPrev_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_jTable1_mouseAdapter.class" location="C:\Program Files\GC\crm\Prod_jTable1_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Search.class" location="C:\Program Files\GC\crm\Sales_Search.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Search_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Search_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrintThis_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrintThis_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_Search.class" location="C:\Program Files\GC\crm\Cust_Search.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_Search_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_Search_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_Search_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_Search_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_Search.class" location="C:\Program Files\GC\crm\Prod_Search.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_Search_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_Search_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_Search_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_Search_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crmApp.class" location="C:\Program Files\GC\crm\crmApp.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrevious_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrevious_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate.class" location="C:\Program Files\GC\crm\PrintBillOnDate.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDateObj.class" location="C:\Program Files\GC\crm\PrintBillOnDateObj.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrintFromTo_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrintFromTo_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrintAll_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrintAll_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrintThis_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrintThis_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrevious_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrevious_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MyFilter.class" location="C:\Program Files\GC\crm\MyFilter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$1.class" location="C:\Program Files\GC\crm\Login$1.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$2.class" location="C:\Program Files\GC\crm\Login$2.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$3.class" location="C:\Program Files\GC\crm\Login$3.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$4.class" location="C:\Program Files\GC\crm\Login$4.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login.class" location="C:\Program Files\GC\crm\Login.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_cmbProdNo_itemAdapter.class" location="C:\Program Files\GC\crm\Sales_cmbProdNo_itemAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnDelete2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnDelete2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd.class" location="C:\Program Files\GC\crm\PrintBillOnProd.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_cmbProdUnit_itemAdapter.class" location="C:\Program Files\GC\crm\Prod_cmbProdUnit_itemAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Search_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Search_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print.class" location="C:\Program Files\GC\crm\Sales_Print.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnPrint_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnPrint_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_btnDatePrint_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_btnDatePrint_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_cmbCustNo_itemAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_cmbCustNo_itemAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_btnProdPrint_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_btnProdPrint_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProdObj.class" location="C:\Program Files\GC\crm\PrintBillOnProdObj.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrintFromTo_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrintFromTo_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrintAll_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrintAll_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="exGUI" location="C:\Program Files\GC\exGUI" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="UIHelper.class" location="C:\Program Files\GC\exGUI\UIHelper.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="verification" location="C:\Program Files\GC\exGUI\verification" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="VerifyLib.class" location="C:\Program Files\GC\exGUI\verification\VerifyLib.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="images" location="C:\Program Files\GC\images" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="computer.gif" location="C:\Program Files\GC\images\computer.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw.jpg" location="C:\Program Files\GC\images\gw.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw2.jpg" location="C:\Program Files\GC\images\gw2.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw3.jpg" location="C:\Program Files\GC\images\gw3.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw4.jpg" location="C:\Program Files\GC\images\gw4.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon01.gif" location="C:\Program Files\GC\images\icon01.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon01.jpg" location="C:\Program Files\GC\images\icon01.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon02.gif" location="C:\Program Files\GC\images\icon02.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon02.jpg" location="C:\Program Files\GC\images\icon02.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon03.gif" location="C:\Program Files\GC\images\icon03.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon04.gif" location="C:\Program Files\GC\images\icon04.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon05.gif" location="C:\Program Files\GC\images\icon05.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lead-free1.jpg" location="C:\Program Files\GC\images\lead-free1.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lead-free1.png" location="C:\Program Files\GC\images\lead-free1.png" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lead-free1s.jpg" location="C:\Program Files\GC\images\lead-free1s.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="logo.gif" location="C:\Program Files\GC\images\logo.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="logo.jpg" location="C:\Program Files\GC\images\logo.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="password.gif" location="C:\Program Files\GC\images\password.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb-free_150.gif" location="C:\Program Files\GC\images\pb-free_150.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb-frees2.gif" location="C:\Program Files\GC\images\pb-frees2.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1.jpg" location="C:\Program Files\GC\images\pb_free1.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1s.jpg" location="C:\Program Files\GC\images\pb_free1s.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1s1.jpg" location="C:\Program Files\GC\images\pb_free1s1.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1s2.jpg" location="C:\Program Files\GC\images\pb_free1s2.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free2.jpg" location="C:\Program Files\GC\images\pb_free2.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free_leaf.gif" location="C:\Program Files\GC\images\pb_free_leaf.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title.gif" location="C:\Program Files\GC\images\title.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title.jpg" location="C:\Program Files\GC\images\title.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title04.png" location="C:\Program Files\GC\images\title04.png" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title05.jpg" location="C:\Program Files\GC\images\title05.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title06.jpg" location="C:\Program Files\GC\images\title06.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="user.gif" location="C:\Program Files\GC\images\user.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="package cache" location="C:\Program Files\GC\package cache" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="exGUI.dep2" location="C:\Program Files\GC\package cache\exGUI.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crm.dep2" location="C:\Program Files\GC\package cache\crm.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Util.dep2" location="C:\Program Files\GC\package cache\Util.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="exGUI.verification.dep2" location="C:\Program Files\GC\package cache\exGUI.verification.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Util" location="C:\Program Files\GC\Util" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="DbFunc.class" location="C:\Program Files\GC\Util\DbFunc.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ApplicationProperites.class" location="C:\Program Files\GC\Util\ApplicationProperites.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc$TimeoutHttpClient.class" location="C:\Program Files\GC\Util\MiscFunc$TimeoutHttpClient.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc$TimeoutHttpURLConnection.class" location="C:\Program Files\GC\Util\MiscFunc$TimeoutHttpURLConnection.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc$TimeoutHttpStreamHandler.class" location="C:\Program Files\GC\Util\MiscFunc$TimeoutHttpStreamHandler.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc.class" location="C:\Program Files\GC\Util\MiscFunc.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ShowDialog.class" location="C:\Program Files\GC\Util\ShowDialog.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="RsData.class" location="C:\Program Files\GC\Util\RsData.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ExceptionLog.class" location="C:\Program Files\GC\Util\ExceptionLog.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="_GC_installation" location="C:\Program Files\GC\_GC_installation" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="lax.jar" location="C:\Program Files\GC\lax.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="GC.exe" location="C:\Program Files\GC\GC.exe" type="executable" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="GC.lax" location="C:\Program Files\GC\GC.lax" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Frame1.class" location="C:\Program Files\GC\crm\Frame1.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu.class" location="C:\Program Files\GC\crm\Menu.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnSet_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnSet_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnReturn_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnReturn_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_txtSales_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_txtSales_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnExit_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnExit_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnCust_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnCust_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnProd_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnProd_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales.class" location="C:\Program Files\GC\crm\Sales.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnAppend2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnAppend2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnDelete_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnCancel_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnCancel_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnCancel2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnCancel2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnModi_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnModi_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnModi2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnModi2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnAppend_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnHome_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnHome_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnPrev_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnPrev_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_jTable1_mouseAdapter.class" location="C:\Program Files\GC\crm\Sales_jTable1_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_jTable2_mouseAdapter.class" location="C:\Program Files\GC\crm\Sales_jTable2_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust.class" location="C:\Program Files\GC\crm\Cust.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnDelete_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnCancel_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnCancel_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnModi_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnModi_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnAppend_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnHome_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnHome_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnPrev_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnPrev_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_jTable1_mouseAdapter.class" location="C:\Program Files\GC\crm\Cust_jTable1_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod.class" location="C:\Program Files\GC\crm\Prod.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnDelete_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnCancel_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnCancel_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnModi_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnModi_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnAppend_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnHome_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnHome_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnPrev_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnPrev_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_jTable1_mouseAdapter.class" location="C:\Program Files\GC\crm\Prod_jTable1_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Search.class" location="C:\Program Files\GC\crm\Sales_Search.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Search_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Search_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrintThis_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrintThis_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_Search.class" location="C:\Program Files\GC\crm\Cust_Search.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_Search_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_Search_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_Search_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_Search_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_Search.class" location="C:\Program Files\GC\crm\Prod_Search.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_Search_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_Search_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_Search_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_Search_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crmApp.class" location="C:\Program Files\GC\crm\crmApp.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrevious_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrevious_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate.class" location="C:\Program Files\GC\crm\PrintBillOnDate.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDateObj.class" location="C:\Program Files\GC\crm\PrintBillOnDateObj.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrintFromTo_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrintFromTo_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrintAll_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrintAll_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrintThis_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrintThis_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrevious_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrevious_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MyFilter.class" location="C:\Program Files\GC\crm\MyFilter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$1.class" location="C:\Program Files\GC\crm\Login$1.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$2.class" location="C:\Program Files\GC\crm\Login$2.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$3.class" location="C:\Program Files\GC\crm\Login$3.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$4.class" location="C:\Program Files\GC\crm\Login$4.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login.class" location="C:\Program Files\GC\crm\Login.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_cmbProdNo_itemAdapter.class" location="C:\Program Files\GC\crm\Sales_cmbProdNo_itemAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnDelete2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnDelete2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd.class" location="C:\Program Files\GC\crm\PrintBillOnProd.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_cmbProdUnit_itemAdapter.class" location="C:\Program Files\GC\crm\Prod_cmbProdUnit_itemAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Search_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Search_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print.class" location="C:\Program Files\GC\crm\Sales_Print.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnPrint_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnPrint_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_btnDatePrint_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_btnDatePrint_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_cmbCustNo_itemAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_cmbCustNo_itemAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_btnProdPrint_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_btnProdPrint_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProdObj.class" location="C:\Program Files\GC\crm\PrintBillOnProdObj.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrintFromTo_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrintFromTo_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrintAll_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrintAll_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="UIHelper.class" location="C:\Program Files\GC\exGUI\UIHelper.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="VerifyLib.class" location="C:\Program Files\GC\exGUI\verification\VerifyLib.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="computer.gif" location="C:\Program Files\GC\images\computer.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw.jpg" location="C:\Program Files\GC\images\gw.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw2.jpg" location="C:\Program Files\GC\images\gw2.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw3.jpg" location="C:\Program Files\GC\images\gw3.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw4.jpg" location="C:\Program Files\GC\images\gw4.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon01.gif" location="C:\Program Files\GC\images\icon01.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon01.jpg" location="C:\Program Files\GC\images\icon01.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon02.gif" location="C:\Program Files\GC\images\icon02.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon02.jpg" location="C:\Program Files\GC\images\icon02.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon03.gif" location="C:\Program Files\GC\images\icon03.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon04.gif" location="C:\Program Files\GC\images\icon04.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon05.gif" location="C:\Program Files\GC\images\icon05.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lead-free1.jpg" location="C:\Program Files\GC\images\lead-free1.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lead-free1.png" location="C:\Program Files\GC\images\lead-free1.png" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lead-free1s.jpg" location="C:\Program Files\GC\images\lead-free1s.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="logo.gif" location="C:\Program Files\GC\images\logo.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="logo.jpg" location="C:\Program Files\GC\images\logo.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="password.gif" location="C:\Program Files\GC\images\password.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb-free_150.gif" location="C:\Program Files\GC\images\pb-free_150.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb-frees2.gif" location="C:\Program Files\GC\images\pb-frees2.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1.jpg" location="C:\Program Files\GC\images\pb_free1.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1s.jpg" location="C:\Program Files\GC\images\pb_free1s.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1s1.jpg" location="C:\Program Files\GC\images\pb_free1s1.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1s2.jpg" location="C:\Program Files\GC\images\pb_free1s2.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free2.jpg" location="C:\Program Files\GC\images\pb_free2.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free_leaf.gif" location="C:\Program Files\GC\images\pb_free_leaf.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title.gif" location="C:\Program Files\GC\images\title.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title.jpg" location="C:\Program Files\GC\images\title.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title04.png" location="C:\Program Files\GC\images\title04.png" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title05.jpg" location="C:\Program Files\GC\images\title05.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title06.jpg" location="C:\Program Files\GC\images\title06.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="user.gif" location="C:\Program Files\GC\images\user.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="exGUI.dep2" location="C:\Program Files\GC\package cache\exGUI.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crm.dep2" location="C:\Program Files\GC\package cache\crm.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Util.dep2" location="C:\Program Files\GC\package cache\Util.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="exGUI.verification.dep2" location="C:\Program Files\GC\package cache\exGUI.verification.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="DbFunc.class" location="C:\Program Files\GC\Util\DbFunc.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ApplicationProperites.class" location="C:\Program Files\GC\Util\ApplicationProperites.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc$TimeoutHttpClient.class" location="C:\Program Files\GC\Util\MiscFunc$TimeoutHttpClient.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc$TimeoutHttpURLConnection.class" location="C:\Program Files\GC\Util\MiscFunc$TimeoutHttpURLConnection.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc$TimeoutHttpStreamHandler.class" location="C:\Program Files\GC\Util\MiscFunc$TimeoutHttpStreamHandler.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc.class" location="C:\Program Files\GC\Util\MiscFunc.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ShowDialog.class" location="C:\Program Files\GC\Util\ShowDialog.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="RsData.class" location="C:\Program Files\GC\Util\RsData.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ExceptionLog.class" location="C:\Program Files\GC\Util\ExceptionLog.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lax.jar" location="C:\Program Files\GC\lax.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="jbcl.jar" location="C:\Program Files\GC\jbcl.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="_GC_installation" location="C:\Program Files\GC\_GC_installation" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="lax.jar" location="C:\Program Files\GC\lax.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="GC.exe" location="C:\Program Files\GC\GC.exe" type="executable" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="GC.lax" location="C:\Program Files\GC\GC.lax" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Frame1.class" location="C:\Program Files\GC\crm\Frame1.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu.class" location="C:\Program Files\GC\crm\Menu.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnSet_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnSet_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_txtSales_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_txtSales_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnExit_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnExit_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnCust_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnCust_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnProd_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnProd_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales.class" location="C:\Program Files\GC\crm\Sales.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnAppend2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnAppend2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnDelete_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnCancel_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnCancel_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnCancel2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnCancel2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnModi_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnModi_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnModi2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnModi2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnAppend_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnHome_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnHome_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnPrev_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnPrev_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_jTable1_mouseAdapter.class" location="C:\Program Files\GC\crm\Sales_jTable1_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_jTable2_mouseAdapter.class" location="C:\Program Files\GC\crm\Sales_jTable2_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust.class" location="C:\Program Files\GC\crm\Cust.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnDelete_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnCancel_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnCancel_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnModi_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnModi_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnAppend_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnHome_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnHome_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnPrev_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnPrev_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_jTable1_mouseAdapter.class" location="C:\Program Files\GC\crm\Cust_jTable1_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod.class" location="C:\Program Files\GC\crm\Prod.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnDelete_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnCancel_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnCancel_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnModi_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnModi_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnAppend_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnHome_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnHome_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnPrev_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnPrev_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_jTable1_mouseAdapter.class" location="C:\Program Files\GC\crm\Prod_jTable1_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Search.class" location="C:\Program Files\GC\crm\Sales_Search.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Search_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Search_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrintThis_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrintThis_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_Search.class" location="C:\Program Files\GC\crm\Cust_Search.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_Search_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_Search_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_Search_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_Search_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_Search.class" location="C:\Program Files\GC\crm\Prod_Search.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_Search_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_Search_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_Search_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_Search_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crmApp.class" location="C:\Program Files\GC\crm\crmApp.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrevious_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrevious_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate.class" location="C:\Program Files\GC\crm\PrintBillOnDate.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDateObj.class" location="C:\Program Files\GC\crm\PrintBillOnDateObj.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrintFromTo_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrintFromTo_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrintAll_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrintAll_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrintThis_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrintThis_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrevious_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrevious_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup_txtTaxUpdate_actionAdapter.class" location="C:\Program Files\GC\crm\SysSetup_txtTaxUpdate_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup_btnMaxRecUpdate_actionAdapter.class" location="C:\Program Files\GC\crm\SysSetup_btnMaxRecUpdate_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup.class" location="C:\Program Files\GC\crm\SysSetup.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup_btnUpdate_actionAdapter.class" location="C:\Program Files\GC\crm\SysSetup_btnUpdate_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup_btnExit_actionAdapter.class" location="C:\Program Files\GC\crm\SysSetup_btnExit_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup_btnUnitDelete_actionAdapter.class" location="C:\Program Files\GC\crm\SysSetup_btnUnitDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup_btnUnitAppend_actionAdapter.class" location="C:\Program Files\GC\crm\SysSetup_btnUnitAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$1.class" location="C:\Program Files\GC\crm\Login$1.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$2.class" location="C:\Program Files\GC\crm\Login$2.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$3.class" location="C:\Program Files\GC\crm\Login$3.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$4.class" location="C:\Program Files\GC\crm\Login$4.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login.class" location="C:\Program Files\GC\crm\Login.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_cmbProdNo_itemAdapter.class" location="C:\Program Files\GC\crm\Sales_cmbProdNo_itemAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnDelete2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnDelete2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd.class" location="C:\Program Files\GC\crm\PrintBillOnProd.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_cmbProdUnit_itemAdapter.class" location="C:\Program Files\GC\crm\Prod_cmbProdUnit_itemAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Search_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Search_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print.class" location="C:\Program Files\GC\crm\Sales_Print.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnPrint_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnPrint_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_btnDatePrint_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_btnDatePrint_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_cmbCustNo_itemAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_cmbCustNo_itemAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_btnProdPrint_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_btnProdPrint_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProdObj.class" location="C:\Program Files\GC\crm\PrintBillOnProdObj.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrintFromTo_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrintFromTo_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrintAll_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrintAll_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="UIHelper.class" location="C:\Program Files\GC\exGUI\UIHelper.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="VerifyLib.class" location="C:\Program Files\GC\exGUI\verification\VerifyLib.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="computer.gif" location="C:\Program Files\GC\images\computer.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw.jpg" location="C:\Program Files\GC\images\gw.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw2.jpg" location="C:\Program Files\GC\images\gw2.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw3.jpg" location="C:\Program Files\GC\images\gw3.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw4.jpg" location="C:\Program Files\GC\images\gw4.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon01.gif" location="C:\Program Files\GC\images\icon01.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon01.jpg" location="C:\Program Files\GC\images\icon01.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon02.gif" location="C:\Program Files\GC\images\icon02.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon02.jpg" location="C:\Program Files\GC\images\icon02.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon03.gif" location="C:\Program Files\GC\images\icon03.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon04.gif" location="C:\Program Files\GC\images\icon04.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon05.gif" location="C:\Program Files\GC\images\icon05.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lead-free1.jpg" location="C:\Program Files\GC\images\lead-free1.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lead-free1.png" location="C:\Program Files\GC\images\lead-free1.png" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lead-free1s.jpg" location="C:\Program Files\GC\images\lead-free1s.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="logo.gif" location="C:\Program Files\GC\images\logo.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="logo.jpg" location="C:\Program Files\GC\images\logo.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="password.gif" location="C:\Program Files\GC\images\password.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb-free_150.gif" location="C:\Program Files\GC\images\pb-free_150.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb-frees2.gif" location="C:\Program Files\GC\images\pb-frees2.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1.jpg" location="C:\Program Files\GC\images\pb_free1.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1s.jpg" location="C:\Program Files\GC\images\pb_free1s.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1s1.jpg" location="C:\Program Files\GC\images\pb_free1s1.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1s2.jpg" location="C:\Program Files\GC\images\pb_free1s2.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free2.jpg" location="C:\Program Files\GC\images\pb_free2.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free_leaf.gif" location="C:\Program Files\GC\images\pb_free_leaf.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title.gif" location="C:\Program Files\GC\images\title.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title.jpg" location="C:\Program Files\GC\images\title.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title04.png" location="C:\Program Files\GC\images\title04.png" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title05.jpg" location="C:\Program Files\GC\images\title05.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title06.jpg" location="C:\Program Files\GC\images\title06.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="user.gif" location="C:\Program Files\GC\images\user.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="exGUI.dep2" location="C:\Program Files\GC\package cache\exGUI.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crm.dep2" location="C:\Program Files\GC\package cache\crm.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Util.dep2" location="C:\Program Files\GC\package cache\Util.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="exGUI.verification.dep2" location="C:\Program Files\GC\package cache\exGUI.verification.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="DbFunc.class" location="C:\Program Files\GC\Util\DbFunc.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ApplicationProperites.class" location="C:\Program Files\GC\Util\ApplicationProperites.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc$TimeoutHttpClient.class" location="C:\Program Files\GC\Util\MiscFunc$TimeoutHttpClient.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc$TimeoutHttpURLConnection.class" location="C:\Program Files\GC\Util\MiscFunc$TimeoutHttpURLConnection.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc$TimeoutHttpStreamHandler.class" location="C:\Program Files\GC\Util\MiscFunc$TimeoutHttpStreamHandler.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc.class" location="C:\Program Files\GC\Util\MiscFunc.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ShowDialog.class" location="C:\Program Files\GC\Util\ShowDialog.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="RsData.class" location="C:\Program Files\GC\Util\RsData.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ExceptionLog.class" location="C:\Program Files\GC\Util\ExceptionLog.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lax.jar" location="C:\Program Files\GC\lax.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="jbcl.jar" location="C:\Program Files\GC\jbcl.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="_GC_installation" location="C:\Program Files\GC\_GC_installation" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="lax.jar" location="C:\Program Files\GC\lax.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="true" name="GC.exe" location="C:\Program Files\GC\GC.exe" type="executable" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="GC.lax" location="C:\Program Files\GC\GC.lax" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Frame1.class" location="C:\Program Files\GC\crm\Frame1.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu.class" location="C:\Program Files\GC\crm\Menu.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnSet_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnSet_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_txtSales_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_txtSales_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnExit_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnExit_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnCust_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnCust_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Menu_btnProd_actionAdapter.class" location="C:\Program Files\GC\crm\Menu_btnProd_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales.class" location="C:\Program Files\GC\crm\Sales.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnAppend2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnAppend2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnDelete_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnCancel_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnCancel_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnCancel2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnCancel2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnModi_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnModi_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnModi2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnModi2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnAppend_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnHome_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnHome_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnPrev_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnPrev_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_jTable1_mouseAdapter.class" location="C:\Program Files\GC\crm\Sales_jTable1_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_jTable2_mouseAdapter.class" location="C:\Program Files\GC\crm\Sales_jTable2_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust.class" location="C:\Program Files\GC\crm\Cust.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnDelete_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnCancel_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnCancel_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnModi_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnModi_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnAppend_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnHome_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnHome_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_btnPrev_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_btnPrev_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_jTable1_mouseAdapter.class" location="C:\Program Files\GC\crm\Cust_jTable1_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod.class" location="C:\Program Files\GC\crm\Prod.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnDelete_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnCancel_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnCancel_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnModi_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnModi_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnAppend_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnHome_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnHome_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_btnPrev_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_btnPrev_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_jTable1_mouseAdapter.class" location="C:\Program Files\GC\crm\Prod_jTable1_mouseAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Search.class" location="C:\Program Files\GC\crm\Sales_Search.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Search_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Search_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrintThis_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrintThis_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_Search.class" location="C:\Program Files\GC\crm\Cust_Search.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_Search_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_Search_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Cust_Search_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Cust_Search_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_Search.class" location="C:\Program Files\GC\crm\Prod_Search.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_Search_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_Search_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_Search_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Prod_Search_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crmApp.class" location="C:\Program Files\GC\crm\crmApp.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrevious_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrevious_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate.class" location="C:\Program Files\GC\crm\PrintBillOnDate.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDateObj.class" location="C:\Program Files\GC\crm\PrintBillOnDateObj.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrintFromTo_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrintFromTo_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrintAll_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrintAll_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrintThis_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrintThis_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnLast_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnLast_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnNext_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnNext_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnDate_btnPrevious_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnDate_btnPrevious_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup_txtTaxUpdate_actionAdapter.class" location="C:\Program Files\GC\crm\SysSetup_txtTaxUpdate_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup_btnMaxRecUpdate_actionAdapter.class" location="C:\Program Files\GC\crm\SysSetup_btnMaxRecUpdate_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup.class" location="C:\Program Files\GC\crm\SysSetup.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup_btnUpdate_actionAdapter.class" location="C:\Program Files\GC\crm\SysSetup_btnUpdate_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup_btnExit_actionAdapter.class" location="C:\Program Files\GC\crm\SysSetup_btnExit_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup_btnUnitDelete_actionAdapter.class" location="C:\Program Files\GC\crm\SysSetup_btnUnitDelete_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SysSetup_btnUnitAppend_actionAdapter.class" location="C:\Program Files\GC\crm\SysSetup_btnUnitAppend_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$1.class" location="C:\Program Files\GC\crm\Login$1.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$2.class" location="C:\Program Files\GC\crm\Login$2.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$3.class" location="C:\Program Files\GC\crm\Login$3.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login$4.class" location="C:\Program Files\GC\crm\Login$4.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Login.class" location="C:\Program Files\GC\crm\Login.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_cmbProdNo_itemAdapter.class" location="C:\Program Files\GC\crm\Sales_cmbProdNo_itemAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnDelete2_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnDelete2_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd.class" location="C:\Program Files\GC\crm\PrintBillOnProd.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Prod_cmbProdUnit_itemAdapter.class" location="C:\Program Files\GC\crm\Prod_cmbProdUnit_itemAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Search_btnSearch_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Search_btnSearch_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print.class" location="C:\Program Files\GC\crm\Sales_Print.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_btnPrint_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_btnPrint_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_btnDatePrint_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_btnDatePrint_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_cmbCustNo_itemAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_cmbCustNo_itemAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Sales_Print_btnProdPrint_actionAdapter.class" location="C:\Program Files\GC\crm\Sales_Print_btnProdPrint_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProdObj.class" location="C:\Program Files\GC\crm\PrintBillOnProdObj.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnFirst_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnFirst_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnBack_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnBack_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrintFromTo_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrintFromTo_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="PrintBillOnProd_btnPrintAll_actionAdapter.class" location="C:\Program Files\GC\crm\PrintBillOnProd_btnPrintAll_actionAdapter.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="UIHelper.class" location="C:\Program Files\GC\exGUI\UIHelper.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="VerifyLib.class" location="C:\Program Files\GC\exGUI\verification\VerifyLib.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="computer.gif" location="C:\Program Files\GC\images\computer.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw.jpg" location="C:\Program Files\GC\images\gw.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw2.jpg" location="C:\Program Files\GC\images\gw2.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw3.jpg" location="C:\Program Files\GC\images\gw3.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="gw4.jpg" location="C:\Program Files\GC\images\gw4.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon01.gif" location="C:\Program Files\GC\images\icon01.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon01.jpg" location="C:\Program Files\GC\images\icon01.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon02.gif" location="C:\Program Files\GC\images\icon02.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon02.jpg" location="C:\Program Files\GC\images\icon02.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon03.gif" location="C:\Program Files\GC\images\icon03.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon04.gif" location="C:\Program Files\GC\images\icon04.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="icon05.gif" location="C:\Program Files\GC\images\icon05.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lead-free1.jpg" location="C:\Program Files\GC\images\lead-free1.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lead-free1.png" location="C:\Program Files\GC\images\lead-free1.png" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lead-free1s.jpg" location="C:\Program Files\GC\images\lead-free1s.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="logo.gif" location="C:\Program Files\GC\images\logo.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="logo.jpg" location="C:\Program Files\GC\images\logo.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="password.gif" location="C:\Program Files\GC\images\password.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb-free_150.gif" location="C:\Program Files\GC\images\pb-free_150.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb-frees2.gif" location="C:\Program Files\GC\images\pb-frees2.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1.jpg" location="C:\Program Files\GC\images\pb_free1.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1s.jpg" location="C:\Program Files\GC\images\pb_free1s.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1s1.jpg" location="C:\Program Files\GC\images\pb_free1s1.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free1s2.jpg" location="C:\Program Files\GC\images\pb_free1s2.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free2.jpg" location="C:\Program Files\GC\images\pb_free2.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pb_free_leaf.gif" location="C:\Program Files\GC\images\pb_free_leaf.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title.gif" location="C:\Program Files\GC\images\title.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title.jpg" location="C:\Program Files\GC\images\title.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title04.png" location="C:\Program Files\GC\images\title04.png" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title05.jpg" location="C:\Program Files\GC\images\title05.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="title06.jpg" location="C:\Program Files\GC\images\title06.jpg" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="user.gif" location="C:\Program Files\GC\images\user.gif" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="exGUI.dep2" location="C:\Program Files\GC\package cache\exGUI.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="crm.dep2" location="C:\Program Files\GC\package cache\crm.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Util.dep2" location="C:\Program Files\GC\package cache\Util.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="exGUI.verification.dep2" location="C:\Program Files\GC\package cache\exGUI.verification.dep2" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="DbFunc.class" location="C:\Program Files\GC\Util\DbFunc.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ApplicationProperites.class" location="C:\Program Files\GC\Util\ApplicationProperites.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc$TimeoutHttpClient.class" location="C:\Program Files\GC\Util\MiscFunc$TimeoutHttpClient.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc$TimeoutHttpURLConnection.class" location="C:\Program Files\GC\Util\MiscFunc$TimeoutHttpURLConnection.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc$TimeoutHttpStreamHandler.class" location="C:\Program Files\GC\Util\MiscFunc$TimeoutHttpStreamHandler.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="MiscFunc.class" location="C:\Program Files\GC\Util\MiscFunc.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ShowDialog.class" location="C:\Program Files\GC\Util\ShowDialog.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="RsData.class" location="C:\Program Files\GC\Util\RsData.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ExceptionLog.class" location="C:\Program Files\GC\Util\ExceptionLog.class" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="lax.jar" location="C:\Program Files\GC\lax.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="jbcl.jar" location="C:\Program Files\GC\jbcl.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+		</component>
+	</components>
+</registry>
